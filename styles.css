@@ -27,4 +27,11 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 H1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
+    font-size: 20px;
+}
+
+.container section {
+    padding: 30%;
+    border: black 1px solid;
+    text-align: center;
 }
