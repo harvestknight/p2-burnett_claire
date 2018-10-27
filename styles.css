@@ -23,3 +23,8 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 .yellow {
     color: #EFB611;
 }
+
+H1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
