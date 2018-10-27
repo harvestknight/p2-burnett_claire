@@ -8,3 +8,18 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
+.blue {
+    color: #1B63DA;
+}
+
+.green {
+    color: #148C2C;
+}
+
+.red {
+    color: #D31C10;
+}
+
+.yellow {
+    color: #EFB611;
+}
