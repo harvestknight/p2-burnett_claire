@@ -48,6 +48,10 @@ section {
     text-align: center;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 
 /* MEDIA QUERIES */
 @media (min-width: 540px) {
