@@ -16,7 +16,7 @@ RESOURCES
 -HTML validation: https://validator.w3.org/
 -CSS validation: http://jigsaw.w3.org/css-validator/
 -Array sort to display a random fortune: https://www.w3schools.com/js/js_array_sort.asp
-
+-DOM Cheat Sheet: file:///Users/claireburnett/Downloads/DOM%20Cheat%20Sheet-corrected%20(1).pdf
 
 
 
