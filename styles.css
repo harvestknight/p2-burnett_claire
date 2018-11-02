@@ -27,7 +27,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     color: #EFB611;
 }
 
-H1 {
+p {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     font-size: 20px;
@@ -57,7 +57,7 @@ section {
 /* MEDIA QUERIES */
 @media (min-width: 540px) {
     
-    h1 {
+    p {
         font-size: 30px;
     }
 
@@ -65,7 +65,7 @@ section {
 
 @media (min-width: 720px) {
     
-    h1 {
+    p {
         font-size: 35px;
     }
 
@@ -73,7 +73,7 @@ section {
 
 @media (min-width: 960px) {
     
-    h1 {
+    p {
         font-size: 40px;
     }
 
@@ -81,7 +81,7 @@ section {
 
 @media (min-width: 1140px) {
     
-    h1 {
+    p {
         font-size: 50px;
     }
 

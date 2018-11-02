@@ -1,9 +1,5 @@
 //Choose a color + loop through the number of times the name of the color is long
-const fortuneColor = document.getElementsByTagName('h1'); //or use document.getElementsByClassName('colors') and add a CSS 'color' class to the h1's --- use this instead...change h1's to p
-
-//function runColor() {
-   // this.length('x');
-//};
+const fortuneColor = document.getElementsByClassName('colors'); 
 
 function functionWrapper () {
    const runColor = () => {
@@ -29,6 +25,7 @@ for (let i=0; i < fortuneColor.length; i++) {
 
 
 //Display numbers instead of colors
+    //start this section in it's own area/outside of the functions and loops above
     //will need a new event listener -- Blakeley will cover this live in Mod12 
 
 //Choose a number + loop through the same number of times as the number chosen
