@@ -55,8 +55,8 @@ section {
 
 /* TRANSITION STYLING */
 .flash {
-	background-color: lightgray;
-	transition: all 0.5s;
+	background-color: #D0D0D0;
+	transition: all 0.02s linear;
 }
 
 /* MEDIA QUERIES */

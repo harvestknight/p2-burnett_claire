@@ -1,6 +1,5 @@
-//Choose a color + loop through the number of times the name of the color is long
 const fortuneColor = document.getElementsByClassName('colors'); 
-const colorGrid = document.getElementsByTagName('section');
+const colorGrid = document.getElementsByTagName('body');
 
 function functionWrapper () {
     
@@ -17,8 +16,7 @@ function functionWrapper () {
             setTimeout(function(){ 
             flashWhite(); 
             }, i * 1000); 
-            //set timeout method comes into play here to stagger CSS transition functionality
-            //options to try with the functionality: call class list on the variable and toggle that class....put sections inside of a variable to add them to...grab each section every time I click them and put them into an array variable...use loop to add classes
+
             }
         };  
     runColor();
