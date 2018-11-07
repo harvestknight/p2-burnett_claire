@@ -2,7 +2,7 @@
 
 
 ISSUES
--
+-When I tried to toggle my first CSS transition, I kept getting the error 'toggle of undefined'
 
 
 
@@ -17,6 +17,7 @@ RESOURCES
 -CSS validation: http://jigsaw.w3.org/css-validator/
 -Array sort to display a random fortune: https://www.w3schools.com/js/js_array_sort.asp
 -DOM Cheat Sheet: file:///Users/claireburnett/Downloads/DOM%20Cheat%20Sheet-corrected%20(1).pdf
+-Fix toggle of undefined: https://stackoverflow.com/questions/45022309/trying-to-toggle-a-class-but-i-get-error-toggle-of-undefined-using-javascript
 
 
 

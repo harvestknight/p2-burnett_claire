@@ -1,21 +1,26 @@
 //Choose a color + loop through the number of times the name of the color is long
 const fortuneColor = document.getElementsByClassName('colors'); 
+const colorGrid = document.getElementsByTagName('section');
 
 function functionWrapper () {
-   const runColor = () => {
     
-    let thisColorText = this.childNodes[0].nodeValue;
-       
-    let thisColorLength = thisColorText.length;
+    const flashWhite  = () => {
+        //toggle class flash on colorGrid
+        colorGrid[0].classList.toggle('flash');
+    };
+   
+    const runColor = () => {
+        let thisColorText = this.childNodes[0].nodeValue;
+        let thisColorLength = thisColorText.length;
     
-    for (let i=0; i < thisColorLength; i++) {
-        console.log('hi');
-        //call class list on the variable and toggle that class....put sections inside of a variable to add them to...just start with 'add' class instead of toggle
-        //grab each section every time I click them and put them into an array variable...use loop to add classes
-        //this is where I put functionality based on button length
-        //set timeout method will come into play here to stagger CSS transition functionality
-    }
-   };  
+        for (let i = 0; i < thisColorLength * 2; i++) {
+            setTimeout(function(){ 
+            flashWhite(); 
+            }, i * 1000); 
+            //set timeout method comes into play here to stagger CSS transition functionality
+            //options to try with the functionality: call class list on the variable and toggle that class....put sections inside of a variable to add them to...grab each section every time I click them and put them into an array variable...use loop to add classes
+            }
+        };  
     runColor();
 };
 
@@ -27,6 +32,7 @@ for (let i=0; i < fortuneColor.length; i++) {
 //Display numbers instead of colors
     //start this section in it's own area/outside of the functions and loops above
     //will need a new event listener -- Blakeley will cover this live in Mod12 
+
 
 //Choose a number + loop through the same number of times as the number chosen
 

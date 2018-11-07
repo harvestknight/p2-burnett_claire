@@ -53,6 +53,11 @@ section {
     width: 100%;
 }
 
+/* TRANSITION STYLING */
+.flash {
+	background-color: lightgray;
+	transition: all 0.5s;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 540px) {
