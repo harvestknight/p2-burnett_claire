@@ -11,19 +11,17 @@ function functionWrapper () {
     const runColor = () => {
         let thisColorText = this.childNodes[0].nodeValue;
         let thisColorLength = thisColorText.length;
-    
         for (let i = 0; i < thisColorLength * 2; i++) {
             setTimeout(function(){ 
             flashWhite(); 
-            }, i * 1000); 
-
+            }, i * 500); 
             }
         };  
     runColor();
 };
 
 for (let i=0; i < fortuneColor.length; i++) {
- fortuneColor[i].addEventListener('click', functionWrapper);
+    fortuneColor[i].addEventListener('click', functionWrapper);
 };
 
 

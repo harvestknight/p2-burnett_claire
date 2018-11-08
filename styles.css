@@ -56,7 +56,7 @@ section {
 /* TRANSITION STYLING */
 .flash {
 	background-color: #D0D0D0;
-	transition: all 0.02s linear;
+	transition: all linear;
 }
 
 /* MEDIA QUERIES */
