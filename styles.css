@@ -27,6 +27,10 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     color: #EFB611;
 }
 
+.black {
+    color: #000000;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
@@ -51,6 +55,10 @@ section {
 .container-fluid {
     padding: 0;
     width: 100%;
+}
+
+.hide {
+    display: none;
 }
 
 /* TRANSITION STYLING */
