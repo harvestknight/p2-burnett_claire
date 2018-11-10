@@ -65,6 +65,10 @@ section {
     display: flex;
 }
 
+.colors, .numbers2, .numbers3 {
+    cursor: pointer;
+}
+
 /* TRANSITION STYLING */
 .flash {
 	background-color: #D0D0D0;

@@ -60,6 +60,10 @@ for (let i=0; i < fortuneColor.length; i++) {
     fortuneColor[i].addEventListener('click', functionWrapper);
 };
 
+for (let i=0; i < fortuneNumber2.length; i++) {
+    fortuneNumber2[i].addEventListener('click', functionWrapper2);
+};
+
 
 //Choose a number + display fortune
 
