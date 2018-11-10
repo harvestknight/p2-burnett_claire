@@ -1,7 +1,10 @@
-const fortuneColor = document.getElementsByClassName('colors'); 
 const colorGrid = document.getElementsByClassName('colorGrid');
 const colorGrid2 = document.getElementsByClassName('colorGrid2');
 const colorGrid3 = document.getElementsByClassName('colorGrid3');
+const fortuneColor = document.getElementsByClassName('colors'); 
+const fortuneNumber2 = document.getElementsByClassName('numbers2'); 
+const fortuneNumber3 = document.getElementsByClassName('numbers3'); 
+
 
 function functionWrapper () {
     
