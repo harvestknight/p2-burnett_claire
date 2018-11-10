@@ -21,6 +21,12 @@ function functionWrapper () {
             flashWhite(); 
             }, i * 500); 
             }
+            //Display numbers instead of colors
+            setTimeout(function(){
+            colorGrid[0].classList.add('hide');
+            colorGrid2[0].classList.remove('hide');
+            colorGrid2[0].classList.add('show');   
+            }, thisColorLength * 1000);
         };  
     runColor();
 };
@@ -28,12 +34,6 @@ function functionWrapper () {
 for (let i=0; i < fortuneColor.length; i++) {
     fortuneColor[i].addEventListener('click', functionWrapper);
 };
-
-
-//Display numbers instead of colors
-    //start this section in it's own area/outside of the functions and loops above
-    //will need a new event listener -- Blakeley will cover this live in Mod12 
-
 
 //Choose a number + loop through the same number of times as the number chosen
 
