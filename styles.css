@@ -109,9 +109,8 @@ section {
 }
 
 .fortune-show {
-	display: block;
-    opacity: 1 !important;
-    transition: all 3s;
+	display: inline;
+    transition: all 2s;
 }
 
 /* MEDIA QUERIES */

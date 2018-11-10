@@ -5,7 +5,7 @@ const fortuneColor = document.getElementsByClassName('colors');
 const fortuneNumber2 = document.getElementsByClassName('numbers2'); 
 const fortuneNumber3 = document.getElementsByClassName('numbers3'); 
 
-let magicFortunes = ['Now is the time to try a new hair color!','Stay home Saturday night!', 'You will become a JavaScript jedi!', 'The gym is calling your name!', 'You will get your dream job upon graduation!', 'You will live a long, healthy life!', 'Your Christmas bonus will be generous!', 'Now is the time to send a thoughtful message to a loved one!', 'Call your mother!', 'Sleep in tomorrow!'];
+const magicFortunes = ['Now is the time to try a new hair color!','Stay home Saturday night!', 'You will become a JavaScript jedi!', 'The gym is calling your name!', 'You will get your dream job upon graduation!', 'You will live a long, healthy life!', 'Your Christmas bonus will be generous!', 'Now is the time to send a thoughtful message to a loved one!', 'Call your mother!', 'Sleep in tomorrow!'];
 
 //Choose a color + loop through the number of times that the name of the color is long
 function functionWrapper () {
@@ -78,7 +78,15 @@ function functionWrapper3 () {
             setTimeout(function(){
             colorGrid3[0].classList.add('hide');
             colorGrid3[0].classList.remove('show');
-            magicFortunes.classList.add('fortune-show');//change show to slide-in or something more styled
+            //Display fortunes
+            magicFortunes.classList.add('fortune-show');
+            magicFortunes.sort(function(a, b){return 0.5 - Math.random()});
+            const fortuneText = document.createTextNode(magicFortunes[0]);
+            yourFortune.appendChild(fortuneText);
+            yourFortune.classList.add('fortune-show');
+            const yourFortune = document.querySelector('#fortune-wrapper p span');
+            const fortuneTextPlaceholder = document.createTextNode('');
+            yourFortune.appendChild(fortuneTextPlaceholder);
             }, numberValue * 1000);
         };  
     runColor3();
@@ -95,7 +103,3 @@ for (let i=0; i < fortuneNumber2.length; i++) {
 for (let i=0; i < fortuneNumber3.length; i++) {
     fortuneNumber3[i].addEventListener('click', functionWrapper3);
 };
-
-
-
-//magicFortunes.sort(function(a, b){return 0.5 - Math.random()});
