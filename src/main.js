@@ -31,11 +31,34 @@ function functionWrapper () {
     runColor();
 };
 
+
+//Choose a number + loop through the same number of times as the number chosen
+function functionWrapper2 () {
+    
+    const flashWhite2  = () => {
+        colorGrid2[0].classList.toggle('flash');
+    };
+   
+    const runColor2 = () => {
+        let thisNumber = this.childNodes[0].nodeValue;
+        let numberValue = Number(thisNumber);
+        for (let i = 0; i < numberValue * 2; i++) {
+            setTimeout(function(){ 
+            flashWhite2(); 
+            }, i * 500); 
+            }
+            setTimeout(function(){
+            colorGrid2[0].classList.add('hide');
+            colorGrid3[0].classList.remove('hide');
+            colorGrid3[0].classList.add('show');   
+            }, numberValue * 1000);
+        };  
+    runColor2();
+};
+
 for (let i=0; i < fortuneColor.length; i++) {
     fortuneColor[i].addEventListener('click', functionWrapper);
 };
-
-//Choose a number + loop through the same number of times as the number chosen
 
 
 //Choose a number + display fortune
