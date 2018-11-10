@@ -1,5 +1,5 @@
 const fortuneColor = document.getElementsByClassName('colors'); 
-const colorGrid = document.getElementsByTagName('body');
+const colorGrid = document.getElementsByClassName('colorGrid');
 
 function functionWrapper () {
     
