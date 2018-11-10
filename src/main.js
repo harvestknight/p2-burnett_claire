@@ -84,10 +84,10 @@ function functionWrapper3 () {
             const fortuneText = document.createTextNode(magicFortunes[0]);
             yourFortune.appendChild(fortuneText);
             yourFortune.classList.add('fortune-show');
+            }, numberValue * 1000);
             const yourFortune = document.querySelector('#fortune-wrapper p span');
             const fortuneTextPlaceholder = document.createTextNode('');
             yourFortune.appendChild(fortuneTextPlaceholder);
-            }, numberValue * 1000);
         };  
     runColor3();
 };
