@@ -7,6 +7,9 @@ const fortuneNumber3 = document.getElementsByClassName('numbers3');
 
 const magicFortunes = ['Now is the time to try a new hair color!','Stay home Saturday night!', 'You will become a JavaScript jedi!', 'The gym is calling your name!', 'You will get your dream job upon graduation!', 'You will live a long, healthy life!', 'Your Christmas bonus will be generous!', 'Now is the time to send a thoughtful message to a loved one!', 'Call your mother!', 'Sleep in tomorrow!'];
 
+const yourFortune = document.querySelector('#fortune-wrapper');
+const yourFortunePlaceholder = document.querySelector('#fortune-wrapper p span');
+
 //Choose a color + loop through the number of times that the name of the color is long
 function functionWrapper () {
     
@@ -79,15 +82,12 @@ function functionWrapper3 () {
             colorGrid3[0].classList.add('hide');
             colorGrid3[0].classList.remove('show');
             //Display fortunes
-            magicFortunes.classList.add('fortune-show');
+            yourFortune.classList.remove('hide');
+            yourFortune.classList.add('fortune-show');
             magicFortunes.sort(function(a, b){return 0.5 - Math.random()});
             const fortuneText = document.createTextNode(magicFortunes[0]);
-            yourFortune.appendChild(fortuneText);
-            yourFortune.classList.add('fortune-show');
+            yourFortunePlaceholder.appendChild(fortuneText);
             }, numberValue * 1000);
-            const yourFortune = document.querySelector('#fortune-wrapper p span');
-            const fortuneTextPlaceholder = document.createTextNode('');
-            yourFortune.appendChild(fortuneTextPlaceholder);
         };  
     runColor3();
 };
