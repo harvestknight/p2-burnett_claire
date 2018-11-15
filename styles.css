@@ -27,12 +27,12 @@ body {
     color: #AF473C;
 }
 
-.storm {
+.lavender {
     color: #494E6B;
 }
 
 .black {
-    color: #000000;
+    color: #1D2731;
 }
 
 p {
@@ -75,7 +75,7 @@ section {
 
 /* TRANSITION STYLING */
 .flash {
-	background-color: #D0D0D0;
+	background-color: #E9E9E9;
 	transition: all linear;
 }
 
@@ -96,9 +96,9 @@ section {
 }
 
 #fortune-wrapper p span {
-	color: #E58614;
-    font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
+	color: #30415D;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
 }
 
 .fortune-show {
@@ -112,6 +112,10 @@ section {
     p {
         font-size: 50px;
     }
+    
+    #fortune-wrapper p span {
+        font-size: 30px;
+    }
 
 }
 
@@ -119,6 +123,10 @@ section {
     
     p {
         font-size: 55px;
+    }
+    
+    #fortune-wrapper p span {
+        font-size: 35px;
     }
 
 }
@@ -128,6 +136,10 @@ section {
     p {
         font-size: 60px;
     }
+    
+    #fortune-wrapper p span {
+        font-size: 40px;
+    }
 
 }
 
@@ -135,6 +147,10 @@ section {
     
     p {
         font-size: 70px;
+    }
+    
+    #fortune-wrapper p span {
+        font-size: 45px;
     }
 
 }
