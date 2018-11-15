@@ -11,20 +11,24 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 
 /* GRID BLOCK STYLING */
-.blue {
-    color: #1B63DA;
+body {
+    background-color: #F8EEE7;
 }
 
-.green {
-    color: #148C2C;
+.rose {
+    color: #945D60;
 }
 
-.red {
-    color: #D31C10;
+.herb {
+    color: #626E60;
 }
 
-.yellow {
-    color: #EFB611;
+.berry {
+    color: #AF473C;
+}
+
+.storm {
+    color: #494E6B;
 }
 
 .black {
