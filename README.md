@@ -19,6 +19,7 @@ RESOURCES
 -DOM Cheat Sheet: file:///Users/claireburnett/Downloads/DOM%20Cheat%20Sheet-corrected%20(1).pdf
 -Fix toggle of undefined: https://stackoverflow.com/questions/45022309/trying-to-toggle-a-class-but-i-get-error-toggle-of-undefined-using-javascript
 -CSS "flash" transition: https://stackoverflow.com/questions/16791851/a-flash-of-color-using-pure-css-transitions
+-CSS Animations for fortune: https://daneden.github.io/animate.css/
 -Live class lectures + 1-on-1 meetings with you
 
 
