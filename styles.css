@@ -9,10 +9,6 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
-:focus {
-	outline: none;
-}
-
 /* GRID BLOCK STYLING */
 body {
     background-color: #F8EEE7;
