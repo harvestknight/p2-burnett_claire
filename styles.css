@@ -98,7 +98,7 @@ section {
 #fortune-wrapper p span {
 	color: #30415D;
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .fortune-show {
@@ -114,7 +114,7 @@ section {
     }
     
     #fortune-wrapper p span {
-        font-size: 30px;
+        font-size: 20px;
     }
 
 }
@@ -126,7 +126,7 @@ section {
     }
     
     #fortune-wrapper p span {
-        font-size: 35px;
+        font-size: 25px;
     }
 
 }
@@ -138,7 +138,7 @@ section {
     }
     
     #fortune-wrapper p span {
-        font-size: 40px;
+        font-size: 30px;
     }
 
 }
@@ -150,7 +150,7 @@ section {
     }
     
     #fortune-wrapper p span {
-        font-size: 45px;
+        font-size: 35px;
     }
 
 }
